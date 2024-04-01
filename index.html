@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Service </title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav">
+        <a href="#hero" class="logoicon"><svg id="logoicon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-tools" viewBox="0 0 16 16">
+                <path
+                    d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0Zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708ZM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11Z" />
+            </svg> <span style="font-size: 15pt; padding-left: 10px;">Car Service</span></a>
+        <a href="#hero">
+            <p class="navbutton">HOME</p>
+        </a>
+        <a href="#services">
+            <p class="navbutton">SERVICES</p>
+        </a>
+        <a href="#location">
+            <p class="navbutton">LOCATION</p>
+        </a>
+        <a href="#contact">
+            <p class="navbutton">CONTACT</p>
+        </a>
+    </nav>
+        <h1 class="title">Car Service</h1>
+        <h3 class="subtitle">ShAadi</h2>
+        <section class="hero" id="hero">
+            <div class="heroimage"></div>
+        </section>
+        
+        <section class="services" id="services">
+            <h2 class="servicestitle" id="servicestitle">SERVICES</h2>
+            <div class="servicescontent">
+                <div class="servicescard enginecard" id="servicescard1">
+                    <img src="./images/car-engine.png" alt=" car engine" id="engine" class="engine">
+                    <p id="enginetitle" class="enginetitle">Engine repair</p>
+                    <p id="enginetext" class="enginetext"> We offer all types of engine repairs: major service, small service, injectors, 
+                        nozzles, turbines, engine head and its elements, engine block, replacement of all types of filters, coolers and coolers, 
+                        intercoolers, hoses, oil change, belt and pulley replacement, tuning ignition timing, replacement of all types of sensors, 
+                        replacement and refilling of all fluids, replacement and service of the fuel pump, computer diagnostics and so on.
+                    </p>
+                </div>
+                <div class="servicescard" id="servicescard2">
+                    <img src="./images/gearbox.png" alt="gearbox" id="gearbox" class="gearbox">
+                    <p id="gearboxtitle" class="gearboxtitle">Gearbox repair</p>
+                    <p id="gearboxtext" class="gearboxtext"> Repair of all types of gearbox failures: replacement of floating or rigid flywheel, replacement of lamella and pressure plate, replacement of clutch set, repair of automatic gearboxes, differential service, 
+                        replacement of half-shafts and axles and other services. </p>
+                </div>
+                <div class="servicescard" id="servicescard3">
+                    <img src="./images/car.png" id="car" class="car">
+                    <p id="othertitle" class="othertitle">Other types of repairs</p>
+                    <p id="othertext" class="othertext">Air conditioning service, air conditioning gas refill, brake replacement and service, suspension and shock absorber service and replacement, replacement of joints, bushings, balls, suspension repairs, exhaust repairs, service of all electrical faults, service of light groups, repair of window lifters, 
+                        repairs in interior and all other repairs.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="location" id="location">
+            <h2 class="locationtitle" id="locationtitle">LOCATION</h2>
+            <div class="locationcontent">
+                <iframe id="maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63320.41806366728!2d80.58458147199792!3d7.29462857299631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae366266498acd3%3A0x411a3818a1e03c35!2sKandy!5e0!3m2!1sen!2slk!4v1711992050176!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+                <p id="locationtext" class="locationtext">Car Service "ShAadi" 21/B,Dalada Weediya,Kandy</p>
+            </div>
+        </section>
+        <button id="button" onclick="darkMode()">Change Mode</button>
+
+        <footer id="contact">          
+            <ul>
+                <li>
+                    <span class="contact-info">Phone Number: 0775863271</span>
+                    <span class="contact-info">Email: shashmikasandeepani@.com</span>
+                </li>
+            </ul>
+        </footer>
+        <script src="script.js"></script>
+</body>
+
+</html>
